@@ -2,6 +2,17 @@
 import Dog from "./Dog.js"
 import dogs from "./data.js"
 
-const dog = new Dog(dogs[1])
+const dogArray = dogs.map(dog => )
+console.log(dogArray)
+// let dog = getNewDog();
 
-document.getElementById("dog").innerHTML = dog.getDogHtml()
+// function getNewDog() {
+//    const dogsSwipedArray = dogs[dogArray.shift()];
+//    return dogsSwipedArray ? new Dog(dogsSwipedArray) : {}
+// }
+
+// document.getElementById("nope-btn").addEventListener('click', () => getNewDog())
+// document.getElementById("yes-btn").addEventListener('click', () => likeDog())
+
+// document.getElementById('dog').innerHTML = dog.getDogHtml();
+
