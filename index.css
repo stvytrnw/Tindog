@@ -55,6 +55,20 @@ nav {
 
 /* MAIN */
 
+.rateLogo {
+    position: absolute;
+    top: 250px;
+    left: 25px;
+    transform: rotate(-30deg);
+    width: 400px;
+    height: auto;
+}
+
+.likeBadge, .dislikeBadge {
+    width: 100%;
+    height: 100%;
+}
+
 .dog {
     height: 1300px;
     padding: 1em;
