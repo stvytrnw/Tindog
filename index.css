@@ -50,6 +50,7 @@ nav {
    display: block;  
    padding: 1.5em;
    height: 100%;
+   width: auto;
 }
 
 /* MAIN */
@@ -127,5 +128,9 @@ footer {
     footer {
         max-width: 500px;
         margin: 0 auto;
+    }
+
+    .rateLogo {
+        left: 500px;
     }
 }
