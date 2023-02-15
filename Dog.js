@@ -13,7 +13,6 @@ class Dog{
             </div>
         `
     }
-
 }
 
 export default Dog

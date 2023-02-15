@@ -21,13 +21,13 @@ p {
 h1 {
     
     font-weight: 600;
-    font-size: 6rem;
+    font-size: 3rem;
     letter-spacing: 0.05em;
 }
 
 p {
     font-weight: 400;
-    font-size: 3.5rem;
+    font-size: 2rem;
     margin-top: -1em;
 }
 
@@ -35,32 +35,31 @@ p {
 
 header {
     background-color: #FFFFFF;
-    height: 150px;
-}
-
-nav,
-.nav-img {
-    height: 100%;
+    height: 7.5%;
+    width: 100%;
 }
 
 nav {
+    height: 100%;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .nav-img {
    display: block;  
-   padding: 4em;
+   padding: 1.5em;
+   height: 100%;
 }
 
 /* MAIN */
 
 .rateLogo {
     position: absolute;
-    top: 250px;
-    left: 25px;
+    top: 110px;
+    left: 20px;
     transform: rotate(-30deg);
-    width: 400px;
+    width: 150px;
     height: auto;
 }
 
@@ -70,7 +69,7 @@ nav {
 }
 
 .dog {
-    height: 1300px;
+    height: 77.5%;
     padding: 1em;
 }
 
@@ -84,14 +83,20 @@ nav {
 
 .dog-div {
     display: block;
-    margin-top: -22em;
-    padding-left: 4em;
+    margin-top: -12em;
+    padding-left: 2em;
+}
+
+.endMessage {
+    padding-top: 5em;
+    color: black;
+    text-align: center;
 }
 
 /* FOOTER */
 
 footer {
-    height: 300px;
+    height: 15%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -99,8 +104,8 @@ footer {
 
 .btn-img {
     display: block;
-    padding: 3em;
-    height: 150px;
+    padding: 1.5em;
+    height: 75px;
     margin: 0 3em 0 3em;
     border-radius: 50%;
     box-shadow: 0px 10px 20px 0px #E9E9EA;
@@ -112,4 +117,15 @@ footer {
 
 .dislike:hover, .dislike:focus {
     background-color: #FFE7EF;
+}
+
+/* RESPONSIVE */
+
+@media (min-width: 1000px) {
+    header,
+    main,
+    footer {
+        max-width: 500px;
+        margin: 0 auto;
+    }
 }
